@@ -21,6 +21,8 @@ We define another 16*16 maze, lets call it the Flood array. Inspired by the wate
 
 If you place your mouse anywhere in the maze, and ask it to travel to the cell with the value 1 less than the value of the cell it is in, the mouse is guaranteed to eventually make it to the destination in the path will minimum number of cells.
 
+
+
 As the mouse continues moves through the maze,
 ##### 1. Finds the values of it’s neighboring cells (from the flood array)
 ##### 2. Travels to the neighboring cell with the least value.
@@ -28,6 +30,8 @@ As the mouse continues moves through the maze,
 ##### 4. Updates the newly found walls in the maze array
 ##### 5. Perform the flood fill for the entire flood array
 ##### 6. Back to step 1, and continue until the robot moves to the desired position.
+
+
 
 
 The fast run
