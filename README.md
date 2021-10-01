@@ -23,7 +23,7 @@ If you place your mouse anywhere in the maze, and ask it to travel to the cell w
 
 
 
-As the mouse continues moves through the maze,
+### As the mouse continues moves through the maze,
 ##### 1. Finds the values of it’s neighboring cells (from the flood array)
 ##### 2. Travels to the neighboring cell with the least value.
 ##### 3. Detects the walls to its left, right and the front
@@ -34,7 +34,7 @@ As the mouse continues moves through the maze,
 
 
 
-The fast run
+### The fast run
 ##### 1. Once you decide that the mouse has discovered enough cells to find an optimum path, you can bring the mouse back to the starting square, and do the fast run. In the process, the mouse
 ##### 2. Finds the values of it’s neighboring cells (from the flood array)
 ##### 3. Travels to the neighboring cell with the value 1 less than the present cell.
