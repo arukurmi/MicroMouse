@@ -22,19 +22,19 @@ We define another 16*16 maze, lets call it the Flood array. Inspired by the wate
 If you place your mouse anywhere in the maze, and ask it to travel to the cell with the value 1 less than the value of the cell it is in, the mouse is guaranteed to eventually make it to the destination in the path will minimum number of cells.
 
 As the mouse continues moves through the maze,
-### Finds the values of it’s neighboring cells (from the flood array)
-### Travels to the neighboring cell with the least value.
-### Detects the walls to its left, right and the front
-### Updates the newly found walls in the maze array
-### Perform the flood fill for the entire flood array
-### Back to step 1, and continue until the robot moves to the desired position.
+##### 1. Finds the values of it’s neighboring cells (from the flood array)
+##### 2. Travels to the neighboring cell with the least value.
+##### 3. Detects the walls to its left, right and the front
+##### 4. Updates the newly found walls in the maze array
+##### 5. Perform the flood fill for the entire flood array
+##### 6. Back to step 1, and continue until the robot moves to the desired position.
 
 
 The fast run
-### Once you decide that the mouse has discovered enough cells to find an optimum path, you can bring the mouse back to the starting square, and do the fast run. In the process, the mouse
-### Finds the values of it’s neighboring cells (from the flood array)
-### Travels to the neighboring cell with the value 1 less than the present cell.
-### Back to step 1, and continue until the robot moves to the desired position.
-### During the fast run, we don’t need to update the maze array or the flood array as the mouse will only be moving to the cells that are already discovered.
+##### 1. Once you decide that the mouse has discovered enough cells to find an optimum path, you can bring the mouse back to the starting square, and do the fast run. In the process, the mouse
+##### 2. Finds the values of it’s neighboring cells (from the flood array)
+##### 3. Travels to the neighboring cell with the value 1 less than the present cell.
+##### 4. Back to step 1, and continue until the robot moves to the desired position.
+##### 5. During the fast run, we don’t need to update the maze array or the flood array as the mouse will only be moving to the cells that are already discovered.
 
 
